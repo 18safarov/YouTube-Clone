@@ -9,8 +9,11 @@ A static reproduction of the YouTube homepage. This poject is used for learning 
 - Responsive video grid (1–4 columns depending on screen width)
 - Thumbnail overlays and clickable invisible anchors linking to videos
 - Channel profile tooltips on hover
+
 ![alt text](screenshots/image-1.png)
+
 - Search bar with improved focus styling and placeholder
+
 ![alt text](screenshots/image-2.png)
 
 ## Files
@@ -26,5 +29,6 @@ A static reproduction of the YouTube homepage. This poject is used for learning 
 
 ## License
 For academic/demo use only
+
 
 ---
