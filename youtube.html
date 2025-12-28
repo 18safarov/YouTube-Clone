@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>YouTube.com Clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+
+    </head>
+    <body>
+      <div class="header">
+        <div class="left-section">
+          <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+          <div class="youtube-logo-container">
+            <img class="youtube-logo" src="icons/YouTube-White.svg">
+            <a class="mimo-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></a>
+          </div>
+        </div>
+        <div class="middle-section">
+          <input class="search-bar" type="text" placeholder="Search">
+          <button class="search-button">
+            <img class="search-icon" src="icons/search.svg">
+            <div class="tooltip">Search</div>
+          </button>
+          <button class="voice-search-button">
+            <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+            <div class="tooltip">Search with your voice</div>
+          </button>
+        </div>
+        <div class="right-section">
+          <div class="upload-icon-container">
+            <img class="upload-icon" src="icons/upload.svg">
+            <div class="tooltip">Create</div>
+          </div>
+          <div class="youtube-apps-container">
+            <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+            <div class="tooltip">YouTube apps</div>
+          </div>
+          <div class="notifications-container">
+            <div class="notifications-icon-container">
+              <img class="notifications-icon" src="icons/notifications.svg">
+              <div class="notifications-count">8</div>
+            </div>
+            <div class="tooltip">Notifications</div>
+          </div>
+          <img class="current-user-picture" src="channel-pictures/my-channel.jpg">
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <div class="sidebar-link">
+          <img src="icons/home.svg">
+          <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/explore.svg">
+          <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/subscriptions.svg">
+          <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/originals.svg">
+          <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/youtube-music.svg">
+          <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/library.svg">
+          <div>Library</div>
+        </div>
+      </div>
+
+      <main>
+        <section class="video-grid">
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.jpg">
+              <div class="video-time">4:59</div>
+              <a class="link-to-the-video" href="https://youtu.be/A61H6o1f6ts?si=88Jw-94zKypK4utn"></a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <div class="profile-picture-container">
+                  <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+                  <div class="tooltip">
+                    <div class="tooltip-picture">
+                      <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+                    </div>
+                    <div class="tooltip-info">
+                      <p class="text1">etherealnightcore</p>
+                      <p class="text2">15.2K subscribers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="video-title-container">
+                  <p class="video-title">
+                    Caribbean Blue - enyatv (slowed + reverb)
+                  </p>
+                  <a class="link-to-the-video" href="https://youtu.be/A61H6o1f6ts?si=88Jw-94zKypK4utn"></a>
+                </div>
+                <p class="video-author">
+                  etherealnightcore
+                </p>
+
+                <p class="video-stats">
+                  1.1M views &#183; 8 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-2.avif">
+              <div class="video-time">8:05</div>
+              <a class="link-to-the-video" href="https://youtu.be/auQDHL0_sWI?si=Q_sgCYp4VVTSspO3"></a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <div class="profile-picture-container">
+                  <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+                  <div class="tooltip">
+                    <div class="tooltip-picture">
+                      <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+                    </div>
+                    <div class="tooltip-info">
+                      <p class="text1">RobenSikk</p>
+                      <p class="text2">380K Subscribers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="video-title-container">
+                  <p class="video-title">
+                    Gangster Spongebob: Rise And Fall
+                  </p>
+                  <a class="link-to-the-video" href="https://youtu.be/auQDHL0_sWI?si=Q_sgCYp4VVTSspO3"></a>
+                </div>
+
+                <p class="video-author">
+                  RobenSikk
+                </p>
+
+                <p class="video-stats">
+                  10M views &#183; 4 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-3.avif">
+              <div class="video-time">54:56</div>
+              <a class="link-to-the-video" href="https://youtu.be/kBdfcR-8hEY?si=LFklXIsfBNAUCoFZ"></a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <div class="profile-picture-container">
+                  <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+                  <div class="tooltip">
+                    <div class="tooltip-picture">
+                      <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+                    </div>
+                    <div class="tooltip-info">
+                      <p class="text1">Harvard University</p>
+                      <p class="text2">2.75M Subscribers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="video-title-container">
+                  <p class="video-title">
+                    Justice: What's The Right Thing To Do? Episode 01 "THE MORAL SIDE OF MURDER"
+                  </p>
+                  <a class="link-to-the-video" href="https://youtu.be/kBdfcR-8hEY?si=LFklXIsfBNAUCoFZ"></a>
+                </div>
+
+                <p class="video-author">
+                  Harvard University
+                </p>
+
+                <p class="video-stats">
+                  40M views &#183; 16 year ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+              <div class="video-time">22:09</div>
+              <a class="link-to-the-video" href="https://www.youtube.com/watch?v=094y1Z2wpJg"></a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <div class="profile-picture-container">
+                  <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+                  <div class="tooltip">
+                    <div class="tooltip-picture">
+                      <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+                    </div>
+                    <div class="tooltip-info">
+                      <p class="text1">Veritasium</p>
+                      <p class="text2">19.8M Subscribers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="video-title-container">
+                  <p class="video-title">
+                    The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                  </p>
+                  <a class="link-to-the-video" href="https://www.youtube.com/watch?v=094y1Z2wpJg"></a>
+                </div>
+
+                <p class="video-author">
+                  Veritasium
+                </p>
+
+                <p class="video-stats">
+                  44M views &#183; 4 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-5.avif">
+              <div class="video-time">1:02</div>
+              <a class="link-to-the-video" href="https://youtu.be/ocY6FxpEUbM?si=U0-cvvK7cUUdxg3-"></a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <div class="profile-picture-container">
+                  <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+                  <div class="tooltip">
+                    <div class="tooltip-picture">
+                      <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+                    </div>
+                    <div class="tooltip-info">
+                      <p class="text1">Artur Forest</p>
+                      <p class="text2">12.9K Subscribers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="video-title-container">
+                  <p class="video-title">                   
+                    I`M TONY MONTANA [ Scarface ]
+                  </p>
+                  <a class="link-to-the-video" href="https://youtu.be/ocY6FxpEUbM?si=U0-cvvK7cUUdxg3-"></a>
+                </div>
+
+                <p class="video-author">
+                  Artur Forest
+                </p>
+
+                <p class="video-stats">
+                  2.2M views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-6.avif">
+              <div class="video-time">3:44</div>
+              <a class="link-to-the-video" href="https://youtu.be/IUsc3R1TJFQ?si=z8v-JnMIfdeUBsMU"></a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <div class="profile-picture-container">
+                  <img class="profile-picture" src="channel-pictures/channel-6.jpg">
+                  <div class="tooltip">
+                    <div class="tooltip-picture">
+                      <img class="profile-picture" src="channel-pictures/channel-6.jpg">
+                    </div>
+                    <div class="tooltip-info">
+                      <p class="text1">The Strength M Archives</p>
+                      <p class="text2">94.6K Subscribers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="video-title-container">
+                  <p class="video-title">
+                    All I know is grind.
+                  </p>
+                  <a class="link-to-the-video" href="https://youtu.be/IUsc3R1TJFQ?si=z8v-JnMIfdeUBsMU"></a>
+                </div>
+
+                <p class="video-author">
+                  The Strength M Archives
+                </p>
+
+                <p class="video-stats">
+                  2.4M views &#183; 2 year ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-7.avif">
+              <div class="video-time">1:03</div>
+              <a class="link-to-the-video" href="https://youtu.be/-i_TnZw9dYU?si=bPmeIagVyYb5hhuq"></a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <div class="profile-picture-container">
+                  <img class="profile-picture" src="channel-pictures/channel-7.jpg">
+                  <div class="tooltip">
+                    <div class="tooltip-picture">
+                      <img class="profile-picture" src="channel-pictures/channel-7.jpg">
+                    </div>
+                    <div class="tooltip-info">
+                      <p class="text1">Bukaka Meme</p>
+                      <p class="text2">732K Subscribers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="video-title-container">
+                  <p class="video-title">
+                    OIIAOIIA CAT x AFTER DARK
+                  </p>
+                  <a class="link-to-the-video" href="https://youtu.be/-i_TnZw9dYU?si=bPmeIagVyYb5hhuq"></a>
+                </div>
+
+                <p class="video-author">
+                  Bukaka Meme
+                </p>
+
+                <p class="video-stats">
+                  7.9M views &#183; 1 year ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-8.avif">
+              <div class="video-time">12:30</div>
+              <a class="link-to-the-video" href="https://youtu.be/rVN1B-tUpgs?si=qbmy4T6mYcwu1BYv"></a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <div class="profile-picture-container">
+                  <img class="profile-picture" src="channel-pictures/channel-8.jpg">
+                  <div class="tooltip">
+                    <div class="tooltip-picture">
+                      <img class="profile-picture" src="channel-pictures/channel-8.jpg">
+                    </div>
+                    <div class="tooltip-info">
+                      <p class="text1">Fatcat Records</p>
+                      <p class="text2">68.7K Subscribers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="video-title-container">
+                  <p class="video-title">
+                    Max Richter - On the Nature of Daylight
+                  </p>
+                  <a class="link-to-the-video" href="https://youtu.be/rVN1B-tUpgs?si=qbmy4T6mYcwu1BYv"></a>
+                </div>
+
+                <p class="video-author">
+                  Fatcat Records
+                </p>
+
+                <p class="video-stats">
+                  29M views &#183; 13 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+              <div class="video-time">13:17</div>
+              <a class="link-to-the-video" href="https://youtu.be/dSJFUvH4fNA?si=70q4y7oas-aBQEJT"></a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <div class="profile-picture-container">
+                  <img class="profile-picture" src="channel-pictures/channel-9.jpeg">
+                  <div class="tooltip">
+                    <div class="tooltip-picture">
+                      <img class="profile-picture" src="channel-pictures/channel-9.jpeg">
+                    </div>
+                    <div class="tooltip-info">
+                      <p class="text1">ThenX</p>
+                      <p class="text2">19.5M Subscribers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="video-title-container">
+                  <p class="video-title">
+                    The SECRET to Super Human STRENGTH
+                  </p>
+                  <a class="link-to-the-video" href="https://youtu.be/dSJFUvH4fNA?si=70q4y7oas-aBQEJT"></a>
+                </div>
+
+                <p class="video-author">
+                  ThenX
+                </p>
+
+                <p class="video-stats">
+                  24M views &#183; 7 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-10.avif">
+              <div class="video-time">7:08</div>
+              <a class="link-to-the-video" href="https://youtu.be/LpVNNC52Q_o?si=d-alK62XsaVB6RAe"></a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <div class="profile-picture-container">
+                  <img class="profile-picture" src="channel-pictures/channel-10.jpg">
+                  <div class="tooltip">
+                    <div class="tooltip-picture">
+                      <img class="profile-picture" src="channel-pictures/channel-10.jpg">
+                    </div>
+                    <div class="tooltip-info">
+                      <p class="text1">soulmusichall</p>
+                      <p class="text2">1.18K Subscribers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="video-title-container">
+                  <p class="video-title">                    
+                    "Jin-Roh" Original Soundtrack - Grace Omega by Mizoguchi Hajime
+                  </p>
+                  <a class="link-to-the-video" href="https://youtu.be/LpVNNC52Q_o?si=d-alK62XsaVB6RAe"></a>
+                </div>
+
+                <p class="video-author">
+                  soulmusichall
+                </p>
+
+                <p class="video-stats">
+                  2.8M views &#183; 13 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-11.avif">
+              <div class="video-time">2:40</div>
+              <a class="link-to-the-video" href="https://youtu.be/ClFyG_x2-9k?si=vz8WN9ZpRqxB-6Hb"></a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <div class="profile-picture-container">
+                  <img class="profile-picture" src="channel-pictures/channel-11.jpg">
+                  <div class="tooltip">
+                    <div class="tooltip-picture">
+                      <img class="profile-picture" src="channel-pictures/channel-11.jpg">
+                    </div>
+                    <div class="tooltip-info">
+                      <p class="text1">ELINA</p>
+                      <p class="text2">4.96K Subscribers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="video-title-container">
+                  <p class="video-title">
+                    Can You Hear The Music?
+                  </p>
+                  <a class="link-to-the-video" href="https://youtu.be/ClFyG_x2-9k?si=vz8WN9ZpRqxB-6Hb"></a>
+                </div>
+
+                <p class="video-author">
+                  ELINA
+                </p>
+
+                <p class="video-stats">
+                  1.1M views &#183; 2 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-12.avif">
+              <div class="video-time">27:26</div>
+              <a class="link-to-the-video" href="https://youtu.be/XBqD3QhKU24?si=AHPJDJAu-sBxftE3"></a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <div class="profile-picture-container">
+                  <img class="profile-picture" src="channel-pictures/channel-12.jpg">
+                  <div class="tooltip">
+                    <div class="tooltip-picture">
+                      <img class="profile-picture" src="channel-pictures/channel-12.jpg">
+                    </div>
+                    <div class="tooltip-info">
+                      <p class="text1">Bob Ross</p>
+                      <p class="text2">6.35M Subscribers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="video-title-container">
+                  <p class="video-title">
+                    Bob Ross - Cactus at Sunset (Season 8 Episode 10)
+                  </p>
+                  <a class="link-to-the-video" href="https://youtu.be/XBqD3QhKU24?si=AHPJDJAu-sBxftE3"></a>
+                </div>
+
+                <p class="video-author">
+                  Bob Ross
+                </p>
+
+                <p class="video-stats">
+                  5.6M views &#183; 9 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </body>
+</html>

@@ -1,0 +1,157 @@
+.thumbnail {
+  width: 100%;
+}
+
+.video-title {
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: #f1f1f1;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-picture {
+  width: 36px;
+  border-radius: 50px;
+}
+
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: #aaaaaa;
+}
+
+.video-author {
+  margin-bottom: 4px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.video-time {
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+}
+
+.thumbnail-row .link-to-the-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 4px;
+  display: block;
+  z-index: 10;
+}
+
+.video-title-container {
+  position: relative;
+}
+
+.video-title-container .link-to-the-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  display: block;
+  z-index: 10;
+}
+
+.profile-picture-container {
+  position: relative;
+}
+
+.profile-picture-container .tooltip {
+  position: absolute;
+  display: flex;
+  white-space: nowrap;
+  background-color: #282828;
+  color: #f1f1f1;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 14px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  z-index: 300;
+}
+
+.profile-picture-container:hover .tooltip {
+  opacity: 1;
+}
+
+.profile-picture-container .tooltip .profile-picture {
+  width: 50px;
+  height: 50px;
+}
+
+.profile-picture-container .tooltip .tooltip-picture {
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+}
+
+.profile-picture-container .tooltip .tooltip-info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.profile-picture-container .tooltip .tooltip-info .text1 {
+  font-size: 16px;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.profile-picture-container .tooltip .tooltip-info .text2 {
+  font-size: 14px;
+  color: #aaaaaa;
+}
