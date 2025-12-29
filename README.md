@@ -7,7 +7,8 @@ A static reproduction of the YouTube homepage. This poject is used for learning 
 
 ## Features
 - Responsive video grid (1–4 columns depending on screen width)
-- Thumbnail overlays and clickable invisible anchors linking to videos
+- Thumbnail and title overlays with clickable invisible anchors linking to videos
+- Channel/Profile icon and channel name overlays with clickable invisible anchors linking to channel
 - Channel profile tooltips on hover
 
 ![alt text](screenshots/image-1.png)
@@ -32,3 +33,4 @@ For academic/demo use only
 
 
 ---
+
