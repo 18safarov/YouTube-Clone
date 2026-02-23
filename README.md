@@ -19,7 +19,7 @@ A static reproduction of the YouTube homepage. This poject is used for learning 
 
 ## Files
 - `youtube.html` — main page (open in browser).
-- `styles/` — CSS files: `general.css`, `header.css`, `video.css`, `sidebar.css`, `normalize.css` - by @necolas (https://github.com/necolas/normalize.css.git)
+- `styles/` — CSS files: `general.css`, `header.css`, `video.css`, `sidebar.css`, `normalize.css` - by @necolas [https://github.com/necolas/normalize.css.git]
 - `thumbnails/` — example thumbnails (images).
 - `channel-pictures/` — channel/profile images.
 - `icons/` — header and sidebar icons.
@@ -33,5 +33,6 @@ For academic/demo use only
 
 
 ---
+
 
 
