@@ -92,10 +92,13 @@
         </div>
 
         <div class="theme-switch">
-          <label class="switch">
-            <input type="checkbox">
-            <span class="slider round"></span>
-          </label>
+          <div class="theme-toggle-container">
+            <span id="theme-label" class="theme-toggle-label">Dark</span>
+            <label class="switch">
+              <input type="checkbox" id="theme-toggle">
+              <span class="slider round"></span>
+            </label>
+          </div>
         </div>
       </div>
 
@@ -630,6 +633,9 @@
           </div>
         </section>
       </main>
+
+    <script src="theme-toggle.js"></script>
+    
     </body>
 </html>
 
