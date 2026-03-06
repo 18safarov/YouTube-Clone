@@ -57,7 +57,7 @@
           <div class="notifications-container">
             <div class="notifications-icon-container">
               <img class="notifications-icon" src="icons/notifications.svg">
-              <div class="notifications-count">8</div>
+              <div class="notifications-count">9+</div>
             </div>
             <div class="tooltip">Notifications</div>
           </div>
@@ -79,10 +79,6 @@
           <div>Subscriptions</div>
         </div>
         <div class="sidebar-link">
-          <img src="icons/originals.svg">
-          <div>Originals</div>
-        </div>
-        <div class="sidebar-link">
           <img src="icons/youtube-music.svg">
           <div>YouTube Music</div>
         </div>
@@ -92,10 +88,13 @@
         </div>
 
         <div class="theme-switch">
-          <label class="switch">
-            <input type="checkbox">
-            <span class="slider round"></span>
-          </label>
+          <div class="theme-toggle-container">
+            <span id="theme-label" class="theme-toggle-label">Dark</span>
+            <label class="switch">
+              <input type="checkbox" id="theme-toggle">
+              <span class="slider round"></span>
+            </label>
+          </div>
         </div>
       </div>
 
@@ -630,6 +629,9 @@
           </div>
         </section>
       </main>
+
+    <script src="theme-toggle.js"></script>
+    
     </body>
 </html>
 

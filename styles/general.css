@@ -1,3 +1,44 @@
+/* === Theme color variables === */
+:root {
+  --main-bg: #0f0f0f;
+  --main-text: #f1f1f1;
+  --secondary-bg: #282828;
+  --border-color: #333333;
+  --hover-bg: #3a3a3a;
+  --muted-text: #888888;
+  --secondary-text: #aaaaaa;
+  --search-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.3);
+  --tooltip-bg: #282828;
+  --tooltip-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  --slider-bg: #444444;
+  --icon-filter: brightness(0.9) invert(1);
+  --logo-width: 120px;
+  --logo-margin-left: -20px;
+  --logo-margin-right: 0px;
+  --header-bg: rgba(15, 15, 15, 0.6);
+  --sidebar-bg: rgba(15, 15, 15, 0.95);
+}
+
+body.light-theme {
+  --main-bg: #ffffff;
+  --main-text: #0f0f0f;
+  --secondary-bg: #f0f0f0;
+  --border-color: #d0d0d0;
+  --hover-bg: #e5e5e5;
+  --muted-text: #606060;
+  --secondary-text: #606060;
+  --search-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.08);
+  --tooltip-bg: #ffffff;
+  --tooltip-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  --slider-bg: #cccccc;
+  --icon-filter: none;
+  --logo-width: 83px;
+  --logo-margin-left: 0px;
+  --logo-margin-right: 12px;
+  --header-bg: rgba(255, 255, 255, 0.8);
+  --sidebar-bg: rgba(255, 255, 255, 0.95);
+}
+
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -9,6 +50,6 @@ body {
   padding-top: 80px;
   padding-left: 96px;
   padding-right: 24px;
-  background-color: #0f0f0f;
-  color: #f1f1f1;
+  background-color: var(--main-bg);
+  color: var(--main-text);
 }
